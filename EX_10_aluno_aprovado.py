@@ -16,4 +16,9 @@
 # Aluno aprovado? False
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
-
+print("digite a primeira nota: ")
+nota1 = float(input())
+print("digite a segunda nota: ")
+nota2 = float(input())
+aprovado = nota1 > 0 and nota2 > 0 and (nota1 + nota2) / 2 > 7
+print(f"Aluno aprovado? {aprovado}")

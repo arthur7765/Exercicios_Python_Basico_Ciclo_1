@@ -9,4 +9,9 @@
 # Você andou 500.0km por 10 dias, então o preço a pagar é R$675.00.
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
-
+print("por quantos dias o carro foi alugado: ")
+dias = int(input())
+print("quantos km o carro rodou: ")
+km = float(input())
+preco = dias * 60 + km * 0.15
+print(f"Você andou {km}km por {dias} dias, então o preço a pagar é R${preco:.2f}.")

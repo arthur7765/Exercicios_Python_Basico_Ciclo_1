@@ -8,3 +8,12 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+soma = 10
+
+soma2 = 30
+
+soma = int(input("digite um número: "))
+soma2 = int(input("digite outro número: "))
+soma = soma + soma2
+print("a soma entre", soma, "e", soma2, "é:", soma)
+10

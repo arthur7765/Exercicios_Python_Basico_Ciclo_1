@@ -13,4 +13,7 @@
 # Pode tirar carteira de motorista? False
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
-
+print("digite sua idade: ")
+idade = int(input())
+pode_tirar_cnh = idade >= 18
+print(f"Pode tirar carteira de motorista? {pode_tirar_cnh}")

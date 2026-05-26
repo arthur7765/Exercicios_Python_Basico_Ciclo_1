@@ -14,4 +14,10 @@
 # Senha correta
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
-
+print("digite a senha: ")
+senha = input()
+senha_correta = "AC12"
+if senha == senha_correta:
+    print("Senha correta")
+else:
+    print("Senha incorreta")
